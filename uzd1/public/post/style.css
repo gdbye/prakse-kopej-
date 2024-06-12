@@ -1,0 +1,31 @@
+body {
+  background: #11111b;
+}
+
+.title {
+  color: #cdd6f4;
+  font-size: 30px;
+  background: #1e1e2e;
+  padding-left: 10px;
+  padding: 1%;
+  margin-top: 1%;
+  border-radius: 32px;
+}
+
+.content {
+  color: #cdd6f4;
+  font-size: 20px;
+  margin-top: 20px;
+  background: #1e1e2e;
+  padding: 1%;
+  border-radius: 32px;
+}
+.footer button {
+  background: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: 32px;
+  padding: 1%;
+  margin-top: 20px;
+  font-size: 20px;
+  border: none;
+}
