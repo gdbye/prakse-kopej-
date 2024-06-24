@@ -6,7 +6,6 @@ body {
 .question {
   display: flex;
   justify-content: center;
-  margin-top: 2%;
 
   p {
     font-size: 48px;
@@ -21,21 +20,20 @@ body {
 
 img {
   display: flex;
-  margin-top: 4%;
   max-height: 300px;
-  max-width: max-content;
+  overflow: hidden;
   border-radius: 20%;
 }
 
 .answers {
   display: flex;
-  justify-content: center;
   margin-top: 3%;
-  flex-wrap: wrap;
-  max-width: 100%;
-  button {
-    margin: 10px;
-    padding: 10px;
+  justify-content: center;
+
+  .button {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 10%;
     border-radius: 10px;
     border: none;
     background-color: #1e1e2e;
@@ -49,8 +47,8 @@ img {
 
   button {
     font-size: 46px;
-    margin: 10px;
-    padding: 10px;
+    margin: 4%;
+    padding: 1%;
     border-radius: 10px;
     border: none;
     color: #cdd6f4;
