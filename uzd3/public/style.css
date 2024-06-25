@@ -1,52 +1,42 @@
-/* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
+/* style.css */
 body {
-  background-color: #11111b;
-  color: #cdd6f4;
-  font-family: 'Roboto', sans-serif;
+  background-color: #181825; /* Darker background color */
+  color: #cdd6f4; /* Text color */
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 .header {
-  color: #cdd6f4;
+  background-color: #1e1e2e; /* Darker header background color */
+  padding: 10px;
   text-align: center;
-  padding: 20px;
-  background-color: #1e1e2e;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: #cdd6f4; /* Header text color */
 }
 
 .header input {
-  border: none;
-  background-color: #1e1e2e;
-  color: #cdd6f4;
+  border: 2px solid #cba6f7; /* Input border color */
+  background-color: #1a1826; /* Darker input background color */
+  color: #cdd6f4; /* Input text color */
   padding: 10px;
   margin-right: 10px;
-  font-size: 16px;
   border-radius: 5px;
 }
 
-button {
-  border: none;
-  background-color: #ff6f61;
-  color: #ffffff;
+.header button {
+  border: 2px solid #f38ba8; /* Button border color */
+  background-color: #1e1e2e; /* Darker button background color */
+  color: #cdd6f4; /* Button text color */
   padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
-button:hover {
-  background-color: #e05a50;
-}
-
-h1, h2 {
-  margin: 0;
-  padding: 10px;
-  text-align: center;
-  font-weight: 500;
+.header button:hover {
+  background-color: #f38ba8; /* Hover background color */
+  color: #1e1e2e; /* Hover text color */
+  border-color: #cba6f7; /* Hover border color */
 }
 
 .main {
@@ -56,36 +46,35 @@ h1, h2 {
 }
 
 .list {
-  flex: 1;
-  margin: 0 10px;
-  background-color: #1e1e2e;
+  background-color: #1e1e2e; /* Darker list background color */
   border-radius: 10px;
+  padding: 20px;
+  width: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .list h2 {
-  background-color: #2b2b3b;
-  padding: 15px;
-  border-radius: 10px 10px 0 0;
-  margin: 0;
-  color: #ff6f61;
+  text-align: center;
+  color: #cdd6f4; /* List header text color */
+  border-bottom: 2px solid #f38ba8; /* Header bottom border color */
+  padding-bottom: 10px;
 }
 
 .list ul {
-  list-style: none;
-  padding: 20px;
-  margin: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .list ul li {
-  background-color: #2b2b3b;
-  padding: 10px;
+  background-color: #292a36; /* Darker list item background color */
   margin: 10px 0;
+  padding: 10px;
   border-radius: 5px;
-  transition: background-color 0.3s;
+  color: #cdd6f4; /* List item text color */
 }
 
 .list ul li:hover {
-  background-color: #3a3a4a;
+  background-color: #f38ba8; /* Hover background color */
+  color: #1e1e2e; /* Hover text color */
 }
 
