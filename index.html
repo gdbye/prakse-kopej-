@@ -1,30 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <link href="style.css" rel="stylesheet">
-  </head>
-  <body>
-    <div>
-      <h1>Uzdevumi</h1>
-    </div>
 
-    <div>
-      <h2>1. uzdevums</h2> 
-      <a href="uzd1/public/index.html">Skatīt</a>
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uzdevumi</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
 
-    <div>
-      <h2>2. uzdevums</h2> 
-      <a href="uzd2/public/index.html">Skatīt</a>
-    </div>
+<body>
+  <header>
+    <h1>Uzdevumi</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="changeIframe('uzd1/public/index.html')">1. uzdevums</a></li>
+        <li><a href="#" onclick="changeIframe('uzd2/public/index.html')">2. uzdevums</a></li>
+        <li><a href="#" onclick="changeIframe('uzd3/public/index.html')">3. uzdevums</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div>
-      <h2>3. uzdevums</h2> 
-      <a href="uzd3/public/index.html">Skatīt</a>
-    </div>
-  
-  </body>
-</html> 
+  <main>
+    <iframe id="contentIframe" src="uzd1/public/index.html"></iframe>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+

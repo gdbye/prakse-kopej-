@@ -12,6 +12,22 @@ body {
   border-radius: 32px;
 }
 
+.main {
+  display: flex;
+}
+
+.img {
+  margin-top: 2%;
+  margin-left: 2%;
+  min-width: 40%;
+  padding-right: 2%;
+  img {
+    max-height: 400px;
+    max-width: 90%;
+    border-radius: 32px;
+  }
+}
+
 .content {
   color: #cdd6f4;
   font-size: 20px;
@@ -19,7 +35,10 @@ body {
   background: #1e1e2e;
   padding: 1%;
   border-radius: 32px;
+  min-width: 60%;
+  max-width: fit-content
 }
+
 .footer button {
   background: #1e1e2e;
   color: #cdd6f4;
